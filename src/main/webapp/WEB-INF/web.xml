@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app>
+  <servlet>
+    <servlet-name>NuevaNoticia</servlet-name>
+    <servlet-class>NuevaNoticia</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NuevaNoticia</servlet-name>
+    <url-pattern>/servlet/NuevaNoticia</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HelloClient</servlet-name>
+    <servlet-class>HelloClient</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloClient</servlet-name>
+    <url-pattern>/servlet/HelloClient</url-pattern>
+  </servlet-mapping>
+
+</web-app>

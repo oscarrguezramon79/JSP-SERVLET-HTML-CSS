@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+#LinksPiePagina{
+
+	clear: both;
+	border: 1px solid #cccccc;
+	font-size: 75%;
+	color: #cccccc;
+	padding: 10px 10px 10px 10px;
+	text-align:center;
+
+}

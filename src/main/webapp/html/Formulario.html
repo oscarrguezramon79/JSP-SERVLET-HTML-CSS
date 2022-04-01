@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Formulario</title>
+  
+  <link rel="stylesheet" href="../css/Contenido.css" type="text/css" />
+  
+  </head>
+  <body>
+  <div id="Contenido">
+    <h1 align="center">
+    <font face="Arial">Nueva Noticia</font></h1>
+    <form action="../servlet/NuevaNoticia"
+          method=post>
+      <font face="Arial">Nombre:</font><br>
+      <input type="text" name="Nombre" size="60">
+      <br><br><font face="Arial">Elige una opcion:</font>
+      <br><select size="1" name="Opcion">
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+        <option>D</option>
+        <option>E</option>
+      </select><br><br><font face="Arial">Día:</font><br>
+      <select name="día">
+        <option>lunes <option>martes <option>miércoles
+        <option>jueves <option>viernes
+      </select>
+      <br><br><font face="Arial">Hora:</font>&nbsp;&nbsp;&nbsp;
+      <font face="Arial">10</font>
+      <input type="radio" name="hora" value="10" checked>
+      &nbsp;&nbsp;&nbsp;
+      <font face="Arial">12</font>
+      <input type="radio" name="hora" value="12">
+      &nbsp;&nbsp;&nbsp;
+      <font face="Arial">16</font>
+      <input type="radio" name="hora" value="16">
+      &nbsp;&nbsp;&nbsp;
+      <font face="Arial">18</font>
+      <input type="radio" name="hora" value="18">
+      <br><br><font face="Arial">Asunto:</font><br>
+      <textarea name="asunto" rows="5" cols="40" wrap="soft"></textarea>
+      <br><br><input type="submit" value="Enviar datos">
+      &nbsp;&nbsp;<input type="reset">
+    </form>
+    <br><br>
+  </div>
+  </body>
+</html>
